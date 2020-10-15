@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P001_Two_Sum", "P001_Two_Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P007_Reverse_Integer", "P007_Reverse_Integer\P007_Reverse_Integer.csproj", "{236CAD9F-B313-4239-B3DD-68CD781D7A2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P009_Palindrome_Number", "P009_Palindrome_Number\P009_Palindrome_Number.csproj", "{609524A3-671E-4BE5-9056-3B7F111B89B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{236CAD9F-B313-4239-B3DD-68CD781D7A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{236CAD9F-B313-4239-B3DD-68CD781D7A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{236CAD9F-B313-4239-B3DD-68CD781D7A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609524A3-671E-4BE5-9056-3B7F111B89B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609524A3-671E-4BE5-9056-3B7F111B89B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609524A3-671E-4BE5-9056-3B7F111B89B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609524A3-671E-4BE5-9056-3B7F111B89B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
