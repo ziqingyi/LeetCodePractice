@@ -17,11 +17,17 @@ namespace P001_Two_Sum
              * You can return the answer in any order.
              *
              *
+             *
              */
              int[] nums1 = new []{2, 7, 11, 15};
              int target1 = 9;
 
-             int[] result = TwoSum(nums1, target1);
+             int[] result1 = TwoSum(nums1, target1);
+
+             int[] nums2 = new[] {3,3 };
+             int target2 = 6;
+
+             int[] result2 = TwoSum(nums2, target2);
 
 
 
@@ -30,9 +36,23 @@ namespace P001_Two_Sum
         public static int[] TwoSum(int[] nums, int target)
         {
             Dictionary<int,int> d = new Dictionary<int, int>();
+
+            //add one extra dic for handling 2 same value in d. 
+            //if the value happens 3 or more times, it will not be part of solution, so do not consider it. 
+            Dictionary<int,int> d_backup = new Dictionary<int, int>();
+
+
             for (int i = 0; i < nums.Length; i++)
             {
-                d.Add(nums[i],i);
+                if (!d.ContainsKey(nums[i]))
+                {
+                    d.Add(nums[i],i);
+                }
+                else if (!d_backup.ContainsKey(nums[i]))
+                {
+                    d_backup.Add(nums[i],i);
+                }
+                
             }
 
             for (int i = 0; i < nums.Length; i++)
@@ -41,6 +61,10 @@ namespace P001_Two_Sum
                 if (d.ContainsKey(complement) && d[complement] != i)
                 {
                     return new int[]{i, d[complement]};
+                }
+                else if (d_backup.ContainsKey(complement))
+                {
+                    return new int[]{i,d_backup[complement]};
                 }
             }
 
