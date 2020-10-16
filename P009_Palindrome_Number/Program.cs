@@ -40,12 +40,40 @@ namespace P009_Palindrome_Number
              *
              */
 
+            int x1 = 12321;
+            bool y1 = IsPalindrome(x1);
+
+            int x2 = 11510;
+            bool y2 = IsPalindrome(x2);
+
+
 
         }
 
      
         public static bool IsPalindrome(int x)
         {
+
+            if (x < 0 || (x % 10 == 0 && x != 0))
+            {
+                return false;
+            }
+
+            int reversedNum = 0;
+            while (x > reversedNum)
+            {
+               reversedNum = reversedNum*10 + x % 10;
+               x = x / 10;
+            }
+
+            if (x == reversedNum || x == reversedNum / 10)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
 
         }
         
