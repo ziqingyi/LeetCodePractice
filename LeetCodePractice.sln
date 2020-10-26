@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Category01_Easy", "Category
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P014_Longest_Common_Prefix", "P014_Longest_Common_Prefix\P014_Longest_Common_Prefix.csproj", "{30587EEF-3ED0-4358-80A6-359A06248D0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P020_Valid_Parentheses", "P020_Valid_Parentheses\P020_Valid_Parentheses.csproj", "{93675D4B-2730-4FBA-B848-F238D6FD44B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{30587EEF-3ED0-4358-80A6-359A06248D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30587EEF-3ED0-4358-80A6-359A06248D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30587EEF-3ED0-4358-80A6-359A06248D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93675D4B-2730-4FBA-B848-F238D6FD44B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93675D4B-2730-4FBA-B848-F238D6FD44B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93675D4B-2730-4FBA-B848-F238D6FD44B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93675D4B-2730-4FBA-B848-F238D6FD44B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{609524A3-671E-4BE5-9056-3B7F111B89B1} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{E89B9327-4468-400C-A518-26DF5F21EF50} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{30587EEF-3ED0-4358-80A6-359A06248D0E} = {157E6138-2049-41E4-AB53-71F909769F1A}
+		{93675D4B-2730-4FBA-B848-F238D6FD44B7} = {157E6138-2049-41E4-AB53-71F909769F1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41314859-F5E0-4ADB-874A-E9B5472E9FFB}
