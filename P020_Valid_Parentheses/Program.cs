@@ -52,11 +52,11 @@ namespace P020_Valid_Parentheses
     
              */
 
+            string s1 = "()[]{}";
+            bool r1 = Solution1.IsValid(s1);
 
-
-
-
-
+            string s2 = "([)]";
+            bool r2 = Solution1.IsValid(s2);
 
 
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,9 +20,12 @@ namespace P020_Valid_Parentheses
             {
                 char c = s[i];
 
-                if (c == ' ') continue;
+                if (c == ' ')
+                {
+                    continue;
+                }
 
-                if (c == '(' || c == '{' || c == '[')
+                if (c == '(' || c == '[' || c == '{')
                 {
                     stack.Push(c);
                 }
@@ -32,25 +36,32 @@ namespace P020_Valid_Parentheses
                         return false;
                     }
 
-                    char topElement = stack.Pop();
+                    char topelement =  stack.Pop();
                     char matched = '#';
 
                     if (c == ')')
+                    {
                         matched = '(';
-                    else if (c == ']')
+                    }
+                    else if(c == ']')
+                    {
                         matched = '[';
-                    else
+                    }
+                    else if (c == '}')
+                    {
                         matched = '{';
+                    }
 
-                    if (matched != topElement)
+                    if (topelement != matched)
+                    {
                         return false;
+                    }
                 }
+
             }
 
             return stack.Count == 0;
         }
-
-
 
 
     }
