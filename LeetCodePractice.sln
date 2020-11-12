@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P014_Longest_Common_Prefix"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P020_Valid_Parentheses", "P020_Valid_Parentheses\P020_Valid_Parentheses.csproj", "{93675D4B-2730-4FBA-B848-F238D6FD44B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P021_Merge_Two_Sorted_Lists", "P021_Merge_Two_Sorted_Lists\P021_Merge_Two_Sorted_Lists.csproj", "{8175D2FD-A56C-4310-A85A-0E20FC5C6833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{93675D4B-2730-4FBA-B848-F238D6FD44B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93675D4B-2730-4FBA-B848-F238D6FD44B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93675D4B-2730-4FBA-B848-F238D6FD44B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8175D2FD-A56C-4310-A85A-0E20FC5C6833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8175D2FD-A56C-4310-A85A-0E20FC5C6833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8175D2FD-A56C-4310-A85A-0E20FC5C6833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8175D2FD-A56C-4310-A85A-0E20FC5C6833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{E89B9327-4468-400C-A518-26DF5F21EF50} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{30587EEF-3ED0-4358-80A6-359A06248D0E} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{93675D4B-2730-4FBA-B848-F238D6FD44B7} = {157E6138-2049-41E4-AB53-71F909769F1A}
+		{8175D2FD-A56C-4310-A85A-0E20FC5C6833} = {157E6138-2049-41E4-AB53-71F909769F1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41314859-F5E0-4ADB-874A-E9B5472E9FFB}
