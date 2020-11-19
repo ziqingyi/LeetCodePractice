@@ -57,9 +57,9 @@ namespace P022_RemoveDuplicatesFromSortedArray
 
              */
 
+            int[] nums1 = {0,0,1,1,1,2,2,3,3,4};
 
-
-
+            int res1 = Solution1.RemoveDuplicates(nums1);
 
 
 
