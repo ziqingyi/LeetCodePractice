@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P021_Merge_Two_Sorted_Lists
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P022_RemoveDuplicatesFromSortedArray", "P022_RemoveDuplicatesFromSortedArray\P022_RemoveDuplicatesFromSortedArray.csproj", "{4C3D91A1-C016-418B-A9A3-C5D6452A3BC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P027_Remove_Element", "P027_Remove_Element\P027_Remove_Element.csproj", "{6ECC62B1-D929-4BA1-87CE-941FD2DB39DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{4C3D91A1-C016-418B-A9A3-C5D6452A3BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C3D91A1-C016-418B-A9A3-C5D6452A3BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C3D91A1-C016-418B-A9A3-C5D6452A3BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ECC62B1-D929-4BA1-87CE-941FD2DB39DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECC62B1-D929-4BA1-87CE-941FD2DB39DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECC62B1-D929-4BA1-87CE-941FD2DB39DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECC62B1-D929-4BA1-87CE-941FD2DB39DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{93675D4B-2730-4FBA-B848-F238D6FD44B7} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{8175D2FD-A56C-4310-A85A-0E20FC5C6833} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{4C3D91A1-C016-418B-A9A3-C5D6452A3BC3} = {157E6138-2049-41E4-AB53-71F909769F1A}
+		{6ECC62B1-D929-4BA1-87CE-941FD2DB39DC} = {157E6138-2049-41E4-AB53-71F909769F1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41314859-F5E0-4ADB-874A-E9B5472E9FFB}
