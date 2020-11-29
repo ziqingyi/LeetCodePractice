@@ -59,9 +59,9 @@ namespace P027_Remove_Element
              */
 
 
+            int[] nums = {0, 1, 2, 2, 3, 0, 4, 2};
 
-
-
+            int res1 = Solution1.RemoveElement(nums,2);
 
 
 
