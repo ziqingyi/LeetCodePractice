@@ -42,9 +42,10 @@ namespace P028_Implement_strStr
              *
              */
 
+            string haystack = "hello";
+            string needle = "ll";
 
-
-
+            int result1 = Solution1.StrStr(haystack, needle);
 
 
 
