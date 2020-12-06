@@ -42,6 +42,9 @@ namespace P038_Count_and_Say
 
              */
 
+            int n1 = 4;
+
+            string result1 = Solution1.CountAndSay(n1);
 
 
 
