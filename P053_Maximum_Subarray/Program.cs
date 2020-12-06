@@ -43,9 +43,9 @@ namespace P053_Maximum_Subarray
                 -231 <= nums[i] <= 231 - 1   
              */
 
+            int[] nums1 = { -2 ,1,-3,4,-1,2,1,-5,4};
 
-
-
+            int res1 = Solution1.MaxSubArray(nums1);
 
 
 
