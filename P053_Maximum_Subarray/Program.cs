@@ -48,6 +48,9 @@ namespace P053_Maximum_Subarray
             int res1 = Solution1.MaxSubArray(nums1);
 
 
+            int[] nums2 = { -1,2, 3,-5, 4 };
+            int res2 = Solution2.MaxSubArray(nums2);
+
 
 
 
