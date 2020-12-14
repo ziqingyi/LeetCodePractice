@@ -13,7 +13,7 @@ namespace P053_Maximum_Subarray
         {
             int maxCurrent = nums[0];
             int maxGlobal = nums[0];
-            for (int i = 0; i < nums.Length; i++)
+            for (int i = 1; i < nums.Length; i++)
             {
                 int temp = nums[i];
                 maxCurrent = Math.Max(nums[i], maxCurrent + nums[i]);

@@ -54,6 +54,11 @@ namespace P053_Maximum_Subarray
 
 
 
+            int[] nums3 = { 1 };
+            int res3 = Solution2.MaxSubArray(nums3);
+
+
+
 
 
 
