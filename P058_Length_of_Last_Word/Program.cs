@@ -31,6 +31,8 @@ namespace P058_Length_of_Last_Word
             string input1 = "Hello World";
             int output1 = Solution1.LengthOfLastWord(input1);
 
+            string input2 = "a ";
+            int output2 = Solution1.LengthOfLastWord(input2);
 
 
         }
