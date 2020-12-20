@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P053_Maximum_Subarray", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P058_Length_of_Last_Word", "P058_Length_of_Last_Word\P058_Length_of_Last_Word.csproj", "{599F3253-62B2-4928-9694-231FDF987E5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P066_Plus_One", "P066_Plus_One\P066_Plus_One.csproj", "{59DB81C9-2380-4314-966A-9E0536E8606D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{599F3253-62B2-4928-9694-231FDF987E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{599F3253-62B2-4928-9694-231FDF987E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{599F3253-62B2-4928-9694-231FDF987E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DB81C9-2380-4314-966A-9E0536E8606D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DB81C9-2380-4314-966A-9E0536E8606D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DB81C9-2380-4314-966A-9E0536E8606D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DB81C9-2380-4314-966A-9E0536E8606D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +126,7 @@ Global
 		{BCF85A7C-700C-4369-8146-C1734F7964EF} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{5E6F6D19-8ABB-4701-81A3-1919A1A9C73F} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{599F3253-62B2-4928-9694-231FDF987E5C} = {157E6138-2049-41E4-AB53-71F909769F1A}
+		{59DB81C9-2380-4314-966A-9E0536E8606D} = {157E6138-2049-41E4-AB53-71F909769F1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41314859-F5E0-4ADB-874A-E9B5472E9FFB}
