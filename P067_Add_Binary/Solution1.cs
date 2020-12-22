@@ -14,8 +14,14 @@ namespace P067_Add_Binary
             //int b1 = int.Parse(b);
             //string r = Convert.ToString(int.Parse(a), 2)+ Convert.ToString(int.Parse(b), 2);
 
+            //int dec = Convert.ToInt32(a, 2);
+            //string re = Convert.ToString(dec, 2);
+            string re = Convert.ToString(Convert.ToInt32(a, 2) + Convert.ToInt32(b, 2), 2);
 
-            return r;
+
+
+
+            return re;
         }
 
 
