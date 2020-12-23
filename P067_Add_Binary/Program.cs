@@ -27,6 +27,9 @@ namespace P067_Add_Binary
                 a and b consist only of '0' or '1' characters.
                 Each string does not contain leading zeros except for the zero itself.
 
+            //note: c# int has max/min value
+            //Int64 x = 9223372036854775807;
+            //string xx = Convert.ToString(x, 2);
              */
             string a1= "11";
             string b1 = "1";
@@ -34,6 +37,13 @@ namespace P067_Add_Binary
 
 
 
+            string a2 = "10100000100100110110010000010101111011011001101110111111111101000000101111001110001111100001101";
+            string b2 = "110101001011101110001111100110001010100001101011101010000011011011001011101111001100000011011110011";
+            string s2 = Solution1.AddBinary(a2, b2);
+
+
+            
+            
         }
     }
 }
