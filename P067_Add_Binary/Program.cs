@@ -32,8 +32,8 @@ namespace P067_Add_Binary
             //string xx = Convert.ToString(x, 2);
              */
             string a1= "11";
-            string b1 = "1";
-            string s1 = Solution1.AddBinary(a1, b1);
+            string b1 = "10";
+            string s1 = Solution1.AddBinary(a1, b1);//101
 
 
 

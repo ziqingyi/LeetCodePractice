@@ -24,9 +24,40 @@ namespace P067_Add_Binary
             ////string re = Convert.ToString(a1+a2, 2);
             #endregion
 
+            StringBuilder sb = new StringBuilder();
+            int i = a.Length - 1;
+            int j = b.Length - 1;
+            int carry = 0;
+            while (i >= 0 || j >= 0)
+            {
+                //find sum for each position
+                //add carry first, then add i and j number separately
+                // %2 get remainder, put to sb
+                // /2 get carry, used for next sum.
 
+                int sum = carry;
+                if (i >= 0)
+                {
+                    sum += a[i]-48;
+                    i--;
+                }
 
-            return "";
+                if (j >= 0)
+                {
+                    sum += b[j]-48;
+                    j--;
+                }
+                sb.Insert(0, sum %2);
+                carry = sum / 2;
+            }
+
+            if (carry > 0)
+            {
+                sb.Insert(0, 1);
+            }
+
+            return sb.ToString();
+
         }
 
 
