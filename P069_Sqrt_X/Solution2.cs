@@ -44,7 +44,7 @@ namespace P069_Sqrt_X
                 }
             }
 
-            return right - 1;
+            return right - 1;//same to (left -1)
 
 
 
