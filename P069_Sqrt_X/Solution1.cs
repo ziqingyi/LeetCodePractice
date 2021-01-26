@@ -22,7 +22,9 @@ namespace P069_Sqrt_X
             int left = (int)Math.Pow(Math.E, 0.5 * Math.Log(x));
             int right = left + 1;
 
-            int result = right * right > x ? left : right;
+            long temp = (long)right * right;
+
+            int result = temp > x ? left : right;
 
             return result;
         }
