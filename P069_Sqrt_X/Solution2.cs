@@ -12,7 +12,7 @@ namespace P069_Sqrt_X
         {
             if (x < 2)
             {
-                return (int)x;
+                return x;
             }
 
             int left = 1;
@@ -20,26 +20,31 @@ namespace P069_Sqrt_X
 
             while (left < right)
             {
-                int temp = (right - left) / 2;
-                int mid = left + (int)Math.Floor((decimal)temp);
-                long largeNumber =(long)mid * mid;
+                int temp = (int)Math.Floor( ((decimal)right - left) / 2  );
+                int mid = left + temp;
 
-                if (largeNumber == x)
+                long largeNum = (long)mid * mid;//must transfer to long when calculate
+
+                if (largeNum < x)
                 {
-                    return (int)mid;
+                    //get rid of left side by adding one,
+                    //because you need to get the first num, with num^2 larger than x
+                    //otherwise(left = mid) loop will never stop
+                    left = mid+1;
                 }
-                else if (largeNumber > x)
+
+                if (largeNum > x)
                 {
                     right = mid;
                 }
-                else if ( largeNumber < x)
+
+                if (largeNum == x)
                 {
-                    left = mid + 1;
+                    return mid;
                 }
             }
 
-            //var dd = left - 1;
-            return (int)(left - 1);
+            return right - 1;
 
 
 
