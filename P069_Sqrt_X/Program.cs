@@ -29,8 +29,11 @@ namespace P069_Sqrt_X
 
             0 <= x <= 231 - 1
             */
+            int x1 = 4;
+            int r1 = Solution1.MySqrt(x1);
 
-
+            long x2 = 21474836474;
+            int r2 = Solution1.MySqrt(x2);
 
 
 
