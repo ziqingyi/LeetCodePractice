@@ -42,7 +42,7 @@ namespace P070_Climbing_Stairs
             int r1 = Solution1.ClimbStairs(n1);
 
 
-            int n2 = 2;
+            int n2 = 3;
             int r2 = Solution1.ClimbStairs(n2);
 
 
