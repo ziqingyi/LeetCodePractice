@@ -8,6 +8,11 @@ namespace P070_Climbing_Stairs
 {
     public class Solution1
     {
+        /*
+         *Runtime: 40 ms, faster than 68.55% of C# online submissions for Climbing Stairs.
+         * Memory Usage: 15.4 MB, less than 11.68% of C# online submissions for Climbing Stairs.
+         */
+
         public static int ClimbStairs(int n)
         {
 

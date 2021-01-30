@@ -46,6 +46,13 @@ namespace P070_Climbing_Stairs
             int r2 = Solution1.ClimbStairs(n2);
 
 
+            int n3 = 4;
+            int r3 = Solution1.ClimbStairs(n3);
+
+            int n4 = 4;
+            int r4 = Solution2.ClimbStairs(n4);
+
+
 
         }
     }
