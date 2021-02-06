@@ -9,6 +9,7 @@ namespace P088_Merge_Sorted_Array
         /*
          *Runtime: 232 ms, faster than 89.44% of C# online submissions for Merge Sorted Array.
          *Memory Usage: 30.9 MB, less than 77.58% of C# online submissions for Merge Sorted Array
+         * https://www.youtube.com/watch?v=YXOBpf75R0Y
          */
         public static void Merge(int[] nums1, int m, int[] nums2, int n)
         {
