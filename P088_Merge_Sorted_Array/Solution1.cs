@@ -6,6 +6,10 @@ namespace P088_Merge_Sorted_Array
 {
     public static class Solution1
     {
+        /*
+         *Runtime: 232 ms, faster than 89.44% of C# online submissions for Merge Sorted Array.
+         *Memory Usage: 30.9 MB, less than 77.58% of C# online submissions for Merge Sorted Array
+         */
         public static void Merge(int[] nums1, int m, int[] nums2, int n)
         {
             int first = m - 1;
