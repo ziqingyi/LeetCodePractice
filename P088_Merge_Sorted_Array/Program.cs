@@ -30,9 +30,21 @@ namespace P088_Merge_Sorted_Array
              */
 
 
+            int[] num31 = { 2,0 };
+            int[] num32 = { 1 };
+            Solution1.Merge(num31, 1, num32, num32.Length);
 
 
 
+            int[] num11 = { 1, 2, 3, 0, 0, 0 };
+            int[] num12 = { 2, 5, 6 };
+            Solution1.Merge(num11,num11.Length-num12.Length, num12, num12.Length);
+
+
+
+            int[] num21 = { 0 };
+            int[] num22 = { 1 };
+            Solution1.Merge(num21, 0, num22, num22.Length);
 
 
 
