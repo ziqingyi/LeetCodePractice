@@ -49,9 +49,19 @@ namespace P104_Maximum_Depth_of_Binary_Tree
              *
              */
 
+            TreeNode root1 = new TreeNode(3,
+                new TreeNode(9),
+                new TreeNode(20,
+                    new TreeNode(15),
+                    new TreeNode(7)));
+
+            int result1 = Solution1.MaxDepth(root1);
 
 
+            TreeNode root2 = new TreeNode(1,
+                new TreeNode(2));
 
+            int result2 = Solution1.MaxDepth(root2);
 
 
 
