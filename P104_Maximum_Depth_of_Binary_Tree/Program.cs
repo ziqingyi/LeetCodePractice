@@ -49,6 +49,21 @@ namespace P104_Maximum_Depth_of_Binary_Tree
              *
              */
 
+            TreeNode root3 = new TreeNode(3,
+                new TreeNode(9),
+                new TreeNode(20,
+                    new TreeNode(15),
+                    new TreeNode(7)));
+
+            int result3 = Solution2.MaxDepth(root3);
+
+
+            TreeNode root4 = new TreeNode(1,
+                new TreeNode(2));
+
+            int result4 = Solution2.MaxDepth(root4);
+
+
             TreeNode root1 = new TreeNode(3,
                 new TreeNode(9),
                 new TreeNode(20,
@@ -62,7 +77,6 @@ namespace P104_Maximum_Depth_of_Binary_Tree
                 new TreeNode(2));
 
             int result2 = Solution1.MaxDepth(root2);
-
 
 
         }
