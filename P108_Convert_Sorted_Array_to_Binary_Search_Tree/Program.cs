@@ -6,6 +6,18 @@ using System.Threading.Tasks;
 
 namespace P108_Convert_Sorted_Array_to_Binary_Search_Tree
 {
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+        {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -31,6 +43,16 @@ namespace P108_Convert_Sorted_Array_to_Binary_Search_Tree
             nums is sorted in a strictly increasing order.
 
              */
+
+
+
+
+
+
+
+
+
+
 
 
 
