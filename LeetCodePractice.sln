@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P104_Maximum_Depth_of_Binar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P108_Convert_Sorted_Array_to_Binary_Search_Tree", "P108_Convert_Sorted_Array_to_Binary_Search_Tree\P108_Convert_Sorted_Array_to_Binary_Search_Tree.csproj", "{5BADD8DA-F564-42AE-9D70-B2C796A27A88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P110_Balanced_Binary_Tree", "P110_Balanced_Binary_Tree\P110_Balanced_Binary_Tree.csproj", "{92B349E7-840E-41A9-921B-17A5D7354C8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,10 @@ Global
 		{5BADD8DA-F564-42AE-9D70-B2C796A27A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BADD8DA-F564-42AE-9D70-B2C796A27A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BADD8DA-F564-42AE-9D70-B2C796A27A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B349E7-840E-41A9-921B-17A5D7354C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B349E7-840E-41A9-921B-17A5D7354C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B349E7-840E-41A9-921B-17A5D7354C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B349E7-840E-41A9-921B-17A5D7354C8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,6 +196,7 @@ Global
 		{2EB03FB9-3BD4-42AD-BF3B-6D4522951DA7} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{06D1FF43-A2E6-47E9-9BDD-76A707E47EE8} = {157E6138-2049-41E4-AB53-71F909769F1A}
 		{5BADD8DA-F564-42AE-9D70-B2C796A27A88} = {157E6138-2049-41E4-AB53-71F909769F1A}
+		{92B349E7-840E-41A9-921B-17A5D7354C8B} = {157E6138-2049-41E4-AB53-71F909769F1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41314859-F5E0-4ADB-874A-E9B5472E9FFB}
