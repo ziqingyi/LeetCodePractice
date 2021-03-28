@@ -50,5 +50,8 @@
     <None Include="App.config" />
     <None Include="book\cookbook.pdf" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="book\solutions.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
