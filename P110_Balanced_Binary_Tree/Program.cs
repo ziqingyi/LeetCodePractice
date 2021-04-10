@@ -47,7 +47,13 @@ namespace P110_Balanced_Binary_Tree
              *
              */
 
+            TreeNode root1 = new TreeNode(3,
+                new TreeNode(9),
+                new TreeNode(20,
+                    new TreeNode(15),
+                    new TreeNode(7)));
 
+            bool result1 = Solution1.IsBalanced(root1);
 
 
 
