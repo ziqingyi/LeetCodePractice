@@ -25,7 +25,7 @@ namespace P111_Minimum_Depth_of_Binary_Tree
                     new TreeNode(15),
                     new TreeNode(7)));
 
-            bool result1 = Solution1.MinDepth(root1);
+            int result1 = Solution1.MinDepth(root1);
 
         }
     }

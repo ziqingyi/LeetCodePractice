@@ -7,8 +7,17 @@ namespace P111_Minimum_Depth_of_Binary_Tree
     public static class Solution1
     {
 
-        public static bool MinDepth(TreeNode root)
+        public static int MinDepth(TreeNode root)
         {
+            if (root is null)
+            {
+                return 0;
+            }
+
+
+
+
+
 
 
 
