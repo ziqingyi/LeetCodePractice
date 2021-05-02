@@ -16,6 +16,15 @@ namespace P111_Minimum_Depth_of_Binary_Tree
     }
     class Program
     {
+        /*
+         Given a binary tree, find its minimum depth.The minimum depth is 
+         the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+            if one side is empty, the depth of the tree is decided by the other
+
+            minimum depth is the relative lower side of the sub tree. 
+
+        */
         static void Main(string[] args)
         {
 
@@ -31,9 +40,9 @@ namespace P111_Minimum_Depth_of_Binary_Tree
 
             TreeNode root2 = new TreeNode(1,
                 new TreeNode(2,new TreeNode(4),
-                    new TreeNode(5)),
-                new TreeNode(3, new TreeNode(6)
-                    ));
+                    new TreeNode(5))
+               // ,new TreeNode(3, new TreeNode(6))
+                );
 
             int result3 = Solution2.MinDepth(root2);
 
