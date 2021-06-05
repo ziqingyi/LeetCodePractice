@@ -61,11 +61,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tree", "Tree", "{08492204-3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P111_Minimum_Depth_of_Binary_Tree", "P111_Minimum_Depth_of_Binary_Tree\P111_Minimum_Depth_of_Binary_Tree.csproj", "{89B150D4-6A0B-431A-AA5D-1A3F189A2FA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P112_Path_Sum", "P112_Path_Sum\P112_Path_Sum.csproj", "{81E4C62E-F4A9-4501-82B9-934233C93EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P112_Path_Sum", "P112_Path_Sum\P112_Path_Sum.csproj", "{81E4C62E-F4A9-4501-82B9-934233C93EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P113_Path_Sum_II", "P113_Path_Sum_II\P113_Path_Sum_II.csproj", "{747D3550-05B9-47E3-BB3C-73D77B4D44D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P113_Path_Sum_II", "P113_Path_Sum_II\P113_Path_Sum_II.csproj", "{747D3550-05B9-47E3-BB3C-73D77B4D44D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P257_Binary_Tree_Paths", "P257_Binary_Tree_Paths\P257_Binary_Tree_Paths.csproj", "{F54E4A8B-94F4-4719-B34A-2187EBEF5657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P257_Binary_Tree_Paths", "P257_Binary_Tree_Paths\P257_Binary_Tree_Paths.csproj", "{F54E4A8B-94F4-4719-B34A-2187EBEF5657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P144_Binary_Tree_Preorder_Traversal", "P144_Binary_Tree_Preorder_Traversal\P144_Binary_Tree_Preorder_Traversal.csproj", "{A410BDA5-6E09-44B1-B385-40F2B01CB26B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,6 +195,10 @@ Global
 		{F54E4A8B-94F4-4719-B34A-2187EBEF5657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F54E4A8B-94F4-4719-B34A-2187EBEF5657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F54E4A8B-94F4-4719-B34A-2187EBEF5657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A410BDA5-6E09-44B1-B385-40F2B01CB26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A410BDA5-6E09-44B1-B385-40F2B01CB26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A410BDA5-6E09-44B1-B385-40F2B01CB26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A410BDA5-6E09-44B1-B385-40F2B01CB26B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -227,6 +233,7 @@ Global
 		{81E4C62E-F4A9-4501-82B9-934233C93EFB} = {08492204-34A2-4D78-AC21-40E3BC248730}
 		{747D3550-05B9-47E3-BB3C-73D77B4D44D4} = {08492204-34A2-4D78-AC21-40E3BC248730}
 		{F54E4A8B-94F4-4719-B34A-2187EBEF5657} = {08492204-34A2-4D78-AC21-40E3BC248730}
+		{A410BDA5-6E09-44B1-B385-40F2B01CB26B} = {08492204-34A2-4D78-AC21-40E3BC248730}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41314859-F5E0-4ADB-874A-E9B5472E9FFB}
