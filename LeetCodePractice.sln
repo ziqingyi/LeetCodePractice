@@ -71,6 +71,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P144_Binary_Tree_Preorder_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P145_Binary_Tree_Postorder_Traversal", "P145_Binary_Tree_Postorder_Traversal\P145_Binary_Tree_Postorder_Traversal.csproj", "{5E173AED-7C0F-4D80-BAEF-F5A396C2207E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P226_Invert_Binary_Tree", "P226_Invert_Binary_Tree\P226_Invert_Binary_Tree.csproj", "{FE109020-9D67-4062-AA79-824D0F91EA02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -205,6 +207,10 @@ Global
 		{5E173AED-7C0F-4D80-BAEF-F5A396C2207E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E173AED-7C0F-4D80-BAEF-F5A396C2207E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E173AED-7C0F-4D80-BAEF-F5A396C2207E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE109020-9D67-4062-AA79-824D0F91EA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE109020-9D67-4062-AA79-824D0F91EA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE109020-9D67-4062-AA79-824D0F91EA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE109020-9D67-4062-AA79-824D0F91EA02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -241,6 +247,7 @@ Global
 		{F54E4A8B-94F4-4719-B34A-2187EBEF5657} = {08492204-34A2-4D78-AC21-40E3BC248730}
 		{A410BDA5-6E09-44B1-B385-40F2B01CB26B} = {08492204-34A2-4D78-AC21-40E3BC248730}
 		{5E173AED-7C0F-4D80-BAEF-F5A396C2207E} = {08492204-34A2-4D78-AC21-40E3BC248730}
+		{FE109020-9D67-4062-AA79-824D0F91EA02} = {08492204-34A2-4D78-AC21-40E3BC248730}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41314859-F5E0-4ADB-874A-E9B5472E9FFB}
