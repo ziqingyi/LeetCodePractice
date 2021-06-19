@@ -36,7 +36,9 @@ namespace P235_Lowest_Common_Ancestor_of_Binary_Search_Tree
                 new TreeNode(8));
 
 
-
+            TreeNode result2 = Solution1.LowestCommonAncestor(root1,
+                new TreeNode(2),
+                new TreeNode(4));
 
 
 
