@@ -73,7 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P145_Binary_Tree_Postorder_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P226_Invert_Binary_Tree", "P226_Invert_Binary_Tree\P226_Invert_Binary_Tree.csproj", "{FE109020-9D67-4062-AA79-824D0F91EA02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P235_Lowest_Common_Ancestor_of_Binary_Search_Tree", "P235_Lowest_Common_Ancestor_of_Binary_Search_Tree\P235_Lowest_Common_Ancestor_of_Binary_Search_Tree.csproj", "{5720BC30-29F0-45EC-AF8B-898BF3331647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P235_Lowest_Common_Ancestor_of_Binary_Search_Tree", "P235_Lowest_Common_Ancestor_of_Binary_Search_Tree\P235_Lowest_Common_Ancestor_of_Binary_Search_Tree.csproj", "{5720BC30-29F0-45EC-AF8B-898BF3331647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P404_Sum_of_Left_Leaves", "P404_Sum_of_Left_Leaves\P404_Sum_of_Left_Leaves.csproj", "{C038032E-9AD3-4C71-96CF-DD378C81F4AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -217,6 +219,10 @@ Global
 		{5720BC30-29F0-45EC-AF8B-898BF3331647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5720BC30-29F0-45EC-AF8B-898BF3331647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5720BC30-29F0-45EC-AF8B-898BF3331647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C038032E-9AD3-4C71-96CF-DD378C81F4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C038032E-9AD3-4C71-96CF-DD378C81F4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C038032E-9AD3-4C71-96CF-DD378C81F4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C038032E-9AD3-4C71-96CF-DD378C81F4AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -255,6 +261,7 @@ Global
 		{5E173AED-7C0F-4D80-BAEF-F5A396C2207E} = {08492204-34A2-4D78-AC21-40E3BC248730}
 		{FE109020-9D67-4062-AA79-824D0F91EA02} = {08492204-34A2-4D78-AC21-40E3BC248730}
 		{5720BC30-29F0-45EC-AF8B-898BF3331647} = {08492204-34A2-4D78-AC21-40E3BC248730}
+		{C038032E-9AD3-4C71-96CF-DD378C81F4AA} = {08492204-34A2-4D78-AC21-40E3BC248730}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41314859-F5E0-4ADB-874A-E9B5472E9FFB}
